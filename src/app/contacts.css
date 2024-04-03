@@ -1,0 +1,98 @@
+.contacts__list__items {
+    background-color: #fff;
+}
+
+.primary-button {
+    background-color:#631363 !important;
+    color:#fff;
+    border-radius: 4px;
+}
+
+.primary-color {
+    color:#631363 !important;
+}
+.sorting-button{
+    font-size: 14px !important;
+}
+.sorting-box .sorting-button>div {
+    border: none !important;
+    padding: 8px;
+    box-shadow: none !important;
+}
+
+.sorting-box label#demo-simple-select-label {
+    margin-top: -7px;
+}
+
+.sorting-box {
+    border: none;
+}
+
+.sorting-box fieldset {
+    border: none;
+}
+
+.notes__readonly {
+    background-color: rgb(237, 243, 240);
+    padding: 10px 60px 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    margin-bottom: 8px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.notes__box {
+    position: relative;
+}
+
+.notes__box__edit {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    height: 100%;
+    margin: auto;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.notes__box:hover .notes__box__edit{
+    display: flex;
+}
+
+.notes__box__edit button {
+    width: 40px;
+    height: 40px;
+}
+.notes__date {
+    font-size: 16px;
+}
+.edit-Button{
+    font-size: 14px;
+}
+.colored-actions{
+    background-color: rgb(245, 245, 245);
+}
+.tag-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 16px;
+}
+.avatar-box {
+    background: #bdbdbd;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
